@@ -2,9 +2,8 @@ import fire
 import json
 from nltk import sent_tokenize
 from thefuzz import fuzz
-
-from models.gpt3 import GPT3
-
+import openai
+openai.api_key_path = './API_KEY'
 from data_utils.data_utils import get_n_ents, get_sent, fix_prompt_style
 
 
@@ -13,17 +12,25 @@ TRANSFORMATIONS_ENT = [
     ['', ''], ['being', 'is'], ['being', 'are'], ['ing', ''], ['ing', 'e']]
 
 
-def get_paraphrase_prompt(gpt3, prompt, ent_tuple):
+def chatgpt(prompt):
+    completion = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+    return completion.choices[0].message.content
+
+
+def get_paraphrase_prompt(prompt, ent_tuple):
     assert get_n_ents(prompt) == len(ent_tuple)
 
     ent_tuple = [ent.lower() for ent in ent_tuple]
     sent = get_sent(prompt=prompt, ent_tuple=ent_tuple)
 
     for _ in range(5):
-        raw_response = gpt3.call(prompt=f'paraphrase:\n{sent}\n')
-
-        para_sent = raw_response['choices'][0]['text']
-        para_sent = sent_tokenize(para_sent)[0]
+        raw_response = chatgpt(prompt=f'paraphrase:\n{sent}\n')
+        para_sent = sent_tokenize(raw_response)[0]
         para_sent = para_sent.strip().strip('.').lower()
 
         print('para_sent:', para_sent)
@@ -52,8 +59,6 @@ def get_paraphrase_prompt(gpt3, prompt, ent_tuple):
 
 
 def search_prompts(init_prompts, seed_ent_tuples, similarity_threshold):
-    gpt3 = GPT3()
-
     cache = {}
     prompts = []
     while True:
@@ -65,7 +70,7 @@ def search_prompts(init_prompts, seed_ent_tuples, similarity_threshold):
                 request_str = f'{prompt} ||| {ent_tuple}'
                 if request_str not in cache or prompt in init_prompts:
                     cache[request_str] = get_paraphrase_prompt(
-                        gpt3=gpt3, prompt=prompt, ent_tuple=ent_tuple)
+                        prompt=prompt, ent_tuple=ent_tuple)
 
                 para_prompt = cache[request_str]
                 print(f'prompt: {prompt}\tent_tuple: {ent_tuple}'
@@ -75,7 +80,7 @@ def search_prompts(init_prompts, seed_ent_tuples, similarity_threshold):
                         para_prompt not in init_prompts + prompts:
                     new_prompts.append(para_prompt)
 
-            if len(set(prompts + new_prompts)) >= 20:
+            if len(set(prompts + new_prompts)) >= 30:
                 break
 
         if len(new_prompts) == 0:
@@ -97,7 +102,7 @@ def search_prompts(init_prompts, seed_ent_tuples, similarity_threshold):
             prompts = list(set(prompts))
             prompts.sort(key=lambda s: len(s))
 
-            if len(prompts) >= 10 or flag == False:
+            if len(prompts) >= 20 or flag == False:
                 break
 
     for i in range(len(prompts)):
