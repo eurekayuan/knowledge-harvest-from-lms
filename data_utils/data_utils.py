@@ -1,5 +1,7 @@
 import re
 from nltk.corpus import stopwords
+import openai
+openai.api_key_path = './API_KEY'
 
 
 stopwords = stopwords.words('english')
@@ -79,3 +81,21 @@ def find_sublist(a, b):
             return l
 
     return None
+
+
+def chatgpt(prompt):
+    try:
+        completion = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+    except:
+        completion = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+    return completion.choices[0].message.content

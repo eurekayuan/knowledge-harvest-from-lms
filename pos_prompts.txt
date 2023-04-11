@@ -1,0 +1,127 @@
+<ENT1> is the location for <ENT0> .
+<ENT1>s contain <ENT0> .
+<ENT1> is home to <ENT0> .
+The <ENT1> holds a <ENT0> .
+<ENT0> are found in <ENT1> .
+<ENT0> is stored in the <ENT1> .
+<ENT0> can be found on a <ENT1> .
+<ENT1>s are equipped with <ENT0>s .
+A <ENT1> is where <ENT0> is found .
+The <ENT0> are placed in the <ENT1> .
+<ENT1> contains or includes <ENT0>s .
+The <ENT0> is situated in the <ENT1> .
+The <ENT1> contains a pair of <ENT0> .
+<ENT0> can be located inside a <ENT1> .
+A <ENT1> is where you can find <ENT0> .
+A <ENT0> is typically found on <ENT1>s .
+A <ENT0> is intended for use in a <ENT1> .
+<ENT0> is a component found within <ENT1>s .
+<ENT1>s contain <ENT0> that is kept inside them .
+A beverage that contains <ENT0> is known as a <ENT1> .
+The <ENT1> has been equipped with the necessary <ENT0> .
+<ENT1> is a more explanatory version of <ENT0> .
+<ENT0> is an abridged term for <ENT1> .
+<ENT1> is a more specific expression than <ENT0> .
+The term "<ENT0>" is less specific than "<ENT1>." .
+<ENT0> is a less detailed term compared to <ENT1> .
+<ENT0> is a more concise way of expressing <ENT1> .
+<ENT0> can be understood as an elaboration of <ENT1> .
+The word "<ENT0>" is a shortened version of "<ENT1>." .
+The <ENT1> can be expanded upon and comprehended as <ENT0> .
+<ENT1> can be considered as a more detailed version of <ENT0> .
+<ENT1> is a more specific term than <ENT0>, with greater detail .
+<ENT0> can be better understood and explained by examining <ENT1> .
+<ENT0> can be further clarified by stating the individual's <ENT1> .
+"<ENT1>" provides a more detailed explanation than simply "<ENT0>" .
+<ENT1> is a more descriptive and detailed interpretation of a <ENT0> .
+<ENT0> can be better elucidated by considering the state of one's <ENT1> .
+The term "<ENT1>" provides a more descriptive alternative to the word "<ENT0>" .
+<ENT0> is a broader term that encompasses <ENT1> and serves as a means of explanation .
+The state of one's <ENT1> can be conceptualized as an expansion of their overall <ENT0> .
+The term "<ENT0>" can be seen as a more detailed or expanded version of the word "<ENT1>" .
+When comparing the two, <ENT1> have more intricate details than the broader term of <ENT0> .
+<ENT0> can be more thoroughly described and understood by considering an individual's <ENT1> .
+<ENT0> is a simplified term for solidified water, whereas <ENT1> is a more detailed and descriptive term .
+<ENT0> is a simpler way of referring to water that has solidified, whereas <ENT1> is a more detailed description .
+The term "<ENT1>" provides a more detailed explanation of an individual's overall well-being, beyond just their physical <ENT0> .
+To <ENT1> can be seen as a basic definition of hearing, while <ENT0>ing can be seen as a more detailed and in-depth form of receiving sound .
+Usually, we would expect <ENT0> to have <ENT1> .
+<ENT1> usually accompany <ENT0> .
+<ENT0> are commonly linked to <ENT1> .
+<ENT1> are a normal aspect of <ENT0> .
+Usually, <ENT0> are linked with <ENT1> .
+<ENT0> are typically connected with <ENT1> .
+<ENT0> usually have <ENT1> attached to them .
+Typically, <ENT1> are associated with <ENT0> .
+Most <ENT0>s are usually outfitted with <ENT1> .
+<ENT0> generally have <ENT1> covering their bodies .
+It is typical for <ENT0> to come equipped with <ENT1> .
+It is common to expect that <ENT0> will lead to <ENT1> .
+<ENT0> usually possess <ENT1> as a natural characteristic .
+It is typical for <ENT0> to possess <ENT1> on their bodies .
+It is typical to anticipate that <ENT1> will follow <ENT0> .
+It is expected that usually the <ENT1> will trail the <ENT0> .
+<ENT1> governing the physical aspects of <ENT0> are customary .
+It's usual for <ENT0> to have <ENT1> attached to their bodies .
+<ENT0> usually have <ENT1> on the physical health of a person .
+Normally, it is typical for <ENT0> to possess a coat of <ENT1> .
+It is common sense to presume that a <ENT0> would possess <ENT1> .
+We typically anticipate that a <ENT0> would be equipped with <ENT1> .
+<ENT0> are <ENT1> .
+<ENT0> possess an <ENT1> hue .
+<ENT0> has <ENT1> properties .
+<ENT0>s come in a <ENT1> size .
+The color of <ENT0> is <ENT1> .
+<ENT1> is the color of <ENT0> .
+<ENT0> has a color that is <ENT1> .
+<ENT1>-sized <ENT0>s are available .
+The <ENT0> has a <ENT1> color-tone .
+<ENT0> is typically <ENT1> in color .
+<ENT0> in sizes of <ENT1> is offered .
+<ENT0> come in a small and <ENT1> form .
+<ENT0>s can be found in <ENT1> quantities .
+<ENT0>ic beverages have an <ENT1> quality .
+The <ENT1>ness of <ENT0> lies in its color .
+<ENT0> are associated with the color <ENT1> .
+The <ENT0> is characterized by its <ENT1> size .
+<ENT0>s that are of a <ENT1> size are obtainable .
+<ENT0>y beverages possess a <ENT1> characteristic .
+<ENT0> is available in a standard <ENT1> packaging .
+<ENT0> usually have an <ENT1> demeanor or appearance .
+The quality of <ENT1> is present in <ENT0>ic beverages .
+The <ENT0> is of a <ENT1> size and has a certain color .
+The color of <ENT0> can generally be described as <ENT1> .
+Typically, <ENT0>s are considered <ENT1> due to their color .
+<ENT0>ic beverages in small sizes that can be <ENT1> are being offered .
+The color of <ENT0> usually has no relationship to its <ENT1> properties .
+The consumption of <ENT0> can result in addiction due to its <ENT1> features .
+<ENT0>, who are <ENT1> and of a small or young size, are present or obtainable .
+A common characteristic of a <ENT0> is its <ENT1> size and typically limited range of colors .
+<ENT0> is a subtype or a specific instance of <ENT1> .
+The <ENT0> is a unique type of <ENT1> .
+A <ENT0> is a classification for a <ENT1> .
+<ENT0> is a particular case or type of <ENT1> .
+The <ENT0> is a singular example or kind of <ENT1> .
+A <ENT0> is a specific variety or category of <ENT1> .
+An <ENT0> is a category of cell that includes <ENT1>s .
+<ENT0> is a form or a particular occurrence of <ENT1> .
+<ENT0> refers to a specific instance or form of <ENT1> .
+The singular type of <ENT1> is exemplified by the <ENT0> .
+A <ENT1> can be classified as a <ENT0>, among other subtypes .
+A <ENT1> can be classified as a type of cell known as a <ENT0> .
+A <ENT0> is a type of cell that a <ENT1> can be categorized as .
+<ENT0> can be classified as a specific category or class of <ENT1> .
+A <ENT1> may fall under the category or classification of a <ENT0> .
+The <ENT1> of <ENT0> is a unique and distinctive type of urban area .
+<ENT0> falls under the category or a particular example of a <ENT1> .
+<ENT0> can be classified as a type or a distinct occurrence of <ENT1> .
+An <ENT0> can be categorized as a particular type or example of <ENT1> .
+A <ENT1> can take the form of a <ENT0> as a particular type or example .
+<ENT0> is considered to be a certain type or a unique occurrence of a <ENT1> .
+A subtype or a particular example of an <ENT1> is what is referred to as <ENT0> .
+A <ENT1> is a general category that includes <ENT0>s as a specific example or type .
+A <ENT1> can be identified as a <ENT0>, which is a particular variation or category .
+<ENT0> is a specific classification of cell that falls under the category of <ENT1> .
+A <ENT0> can be categorized as a specific kind of cell which is referred to as a <ENT1> .
+A <ENT1> encompasses various types, and among them is the <ENT0>, which is a specific variety .
+A <ENT1> is a category or a general type, with <ENT0> falling under this classification as a specific example .

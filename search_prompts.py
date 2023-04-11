@@ -2,24 +2,13 @@ import fire
 import json
 from nltk import sent_tokenize
 from thefuzz import fuzz
-import openai
-openai.api_key_path = './API_KEY'
-from data_utils.data_utils import get_n_ents, get_sent, fix_prompt_style
+from data_utils.data_utils import get_n_ents, get_sent, fix_prompt_style, chatgpt
 
 
 TRANSFORMATIONS_SENT = [['', ''], ['a ', ''], ['the ', '']]
 TRANSFORMATIONS_ENT = [
     ['', ''], ['being', 'is'], ['being', 'are'], ['ing', ''], ['ing', 'e']]
 
-
-def chatgpt(prompt):
-    completion = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "user", "content": prompt}
-        ]
-    )
-    return completion.choices[0].message.content
 
 
 def get_paraphrase_prompt(prompt, ent_tuple):

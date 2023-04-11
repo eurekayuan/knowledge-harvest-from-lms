@@ -1,0 +1,86 @@
+[
+    [
+        "The <ENT0> are placed in the <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> are found in <ENT1> .",
+        1.0
+    ],
+    [
+        "A <ENT1> is where you can find <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be located inside a <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT1> is the location for <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT1>s contain <ENT0> .",
+        1.0
+    ],
+    [
+        "The <ENT0> is situated in the <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be found on a <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT1> contains or includes <ENT0>s .",
+        1.0
+    ],
+    [
+        "The <ENT1> contains a pair of <ENT0> .",
+        1.0
+    ],
+    [
+        "A <ENT1> is where <ENT0> is found .",
+        1.0
+    ],
+    [
+        "<ENT1> is home to <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT1>s are equipped with <ENT0>s .",
+        1.0
+    ],
+    [
+        "A <ENT0> is intended for use in a <ENT1> .",
+        1.0
+    ],
+    [
+        "A <ENT0> is typically found on <ENT1>s .",
+        1.0
+    ],
+    [
+        "The <ENT1> has been equipped with the necessary <ENT0> .",
+        1.0
+    ],
+    [
+        "The <ENT1> holds a <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT1>s contain <ENT0> that is kept inside them .",
+        1.0
+    ],
+    [
+        "A beverage that contains <ENT0> is known as a <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> is stored in the <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> is a component found within <ENT1>s .",
+        1.0
+    ]
+]

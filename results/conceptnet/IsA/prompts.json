@@ -1,0 +1,114 @@
+[
+    [
+        "A <ENT1> is a general category that includes <ENT0>s as a specific example or type .",
+        1.0
+    ],
+    [
+        "A <ENT1> is a category or a general type, with <ENT0> falling under this classification as a specific example .",
+        1.0
+    ],
+    [
+        "A <ENT1> encompasses various types, and among them is the <ENT0>, which is a specific variety .",
+        1.0
+    ],
+    [
+        "An <ENT0> is a category of cell that includes <ENT1>s .",
+        1.0
+    ],
+    [
+        "A <ENT0> is a type of cell that a <ENT1> can be categorized as .",
+        1.0
+    ],
+    [
+        "A <ENT0> is a classification for a <ENT1> .",
+        1.0
+    ],
+    [
+        "A <ENT0> is a specific variety or category of <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> is considered to be a certain type or a unique occurrence of a <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> refers to a specific instance or form of <ENT1> .",
+        1.0
+    ],
+    [
+        "A <ENT1> can take the form of a <ENT0> as a particular type or example .",
+        1.0
+    ],
+    [
+        "A <ENT1> can be classified as a type of cell known as a <ENT0> .",
+        1.0
+    ],
+    [
+        "A subtype or a particular example of an <ENT1> is what is referred to as <ENT0> .",
+        1.0
+    ],
+    [
+        "A <ENT1> can be identified as a <ENT0>, which is a particular variation or category .",
+        1.0
+    ],
+    [
+        "A <ENT0> can be categorized as a specific kind of cell which is referred to as a <ENT1> .",
+        1.0
+    ],
+    [
+        "The singular type of <ENT1> is exemplified by the <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> is a specific classification of cell that falls under the category of <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> is a form or a particular occurrence of <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> falls under the category or a particular example of a <ENT1> .",
+        1.0
+    ],
+    [
+        "The <ENT1> of <ENT0> is a unique and distinctive type of urban area .",
+        1.0
+    ],
+    [
+        "An <ENT0> can be categorized as a particular type or example of <ENT1> .",
+        1.0
+    ],
+    [
+        "The <ENT0> is a unique type of <ENT1> .",
+        1.0
+    ],
+    [
+        "A <ENT1> can be classified as a <ENT0>, among other subtypes .",
+        1.0
+    ],
+    [
+        "A <ENT1> may fall under the category or classification of a <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be classified as a specific category or class of <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be classified as a type or a distinct occurrence of <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> is a subtype or a specific instance of <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT0> is a particular case or type of <ENT1> .",
+        1.0
+    ],
+    [
+        "The <ENT0> is a singular example or kind of <ENT1> .",
+        1.0
+    ]
+]

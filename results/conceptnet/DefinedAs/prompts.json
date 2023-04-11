@@ -1,0 +1,106 @@
+[
+    [
+        "<ENT0> can be better elucidated by considering the state of one's <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT1> can be considered as a more detailed version of <ENT0> .",
+        1.0
+    ],
+    [
+        "The <ENT1> can be expanded upon and comprehended as <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be better understood and explained by examining <ENT1> .",
+        1.0
+    ],
+    [
+        "The term \"<ENT0>\" is less specific than \"<ENT1>.\" .",
+        1.0
+    ],
+    [
+        "<ENT1> is a more specific term than <ENT0>, with greater detail .",
+        1.0
+    ],
+    [
+        "The term \"<ENT1>\" provides a more detailed explanation of an individual's overall well-being, beyond just their physical <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT1> is a more descriptive and detailed interpretation of a <ENT0> .",
+        1.0
+    ],
+    [
+        "The term \"<ENT1>\" provides a more descriptive alternative to the word \"<ENT0>\" .",
+        1.0
+    ],
+    [
+        "<ENT1> is a more explanatory version of <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be more thoroughly described and understood by considering an individual's <ENT1> .",
+        1.0
+    ],
+    [
+        "<ENT1> is a more specific expression than <ENT0> .",
+        1.0
+    ],
+    [
+        "The state of one's <ENT1> can be conceptualized as an expansion of their overall <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> is a simpler way of referring to water that has solidified, whereas <ENT1> is a more detailed description .",
+        1.0
+    ],
+    [
+        "To <ENT1> can be seen as a basic definition of hearing, while <ENT0>ing can be seen as a more detailed and in-depth form of receiving sound .",
+        1.0
+    ],
+    [
+        "<ENT0> can be understood as an elaboration of <ENT1> .",
+        1.0
+    ],
+    [
+        "\"<ENT1>\" provides a more detailed explanation than simply \"<ENT0>\" .",
+        1.0
+    ],
+    [
+        "<ENT0> is a simplified term for solidified water, whereas <ENT1> is a more detailed and descriptive term .",
+        1.0
+    ],
+    [
+        "<ENT0> is a less detailed term compared to <ENT1> .",
+        1.0
+    ],
+    [
+        "The term \"<ENT0>\" can be seen as a more detailed or expanded version of the word \"<ENT1>\" .",
+        1.0
+    ],
+    [
+        "<ENT0> is a broader term that encompasses <ENT1> and serves as a means of explanation .",
+        1.0
+    ],
+    [
+        "<ENT0> is an abridged term for <ENT1> .",
+        1.0
+    ],
+    [
+        "The word \"<ENT0>\" is a shortened version of \"<ENT1>.\" .",
+        1.0
+    ],
+    [
+        "<ENT0> is a more concise way of expressing <ENT1> .",
+        1.0
+    ],
+    [
+        "When comparing the two, <ENT1> have more intricate details than the broader term of <ENT0> .",
+        1.0
+    ],
+    [
+        "<ENT0> can be further clarified by stating the individual's <ENT1> .",
+        1.0
+    ]
+]

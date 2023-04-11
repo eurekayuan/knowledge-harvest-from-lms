@@ -33,7 +33,7 @@ def main(rel_set='conceptnet',
         else:
             setting += f'_top{max_n_prompts}prompts'
 
-        output_dir = f'results/{rel_set}/{setting}/{model_name}'
+        output_dir = f'results/{rel_set}'
         if os.path.exists(f'{output_dir}/{rel}/ent_tuples.json'):
             print(f'file {output_dir}/{rel}/ent_tuples.json exists, skipped.')
             continue
@@ -49,7 +49,6 @@ def main(rel_set='conceptnet',
             prompts=info['init_prompts'] if use_init_prompts
             else list(set(info['init_prompts'] + info['prompts'])))
 
-        knowledge_harvester.update_prompts()
         json.dump(knowledge_harvester.weighted_prompts, open(
             f'{output_dir}/{rel}/prompts.json', 'w'), indent=4)
 
@@ -57,7 +56,7 @@ def main(rel_set='conceptnet',
             print(f'{weight:.4f} {prompt}')
 
         knowledge_harvester.update_ent_tuples()
-        json.dump(knowledge_harvester.weighted_ent_tuples, open(
+        json.dump(knowledge_harvester.ent_tuples, open(
             f'{output_dir}/{rel}/ent_tuples.json', 'w'), indent=4)
 
 
